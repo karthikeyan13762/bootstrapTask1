@@ -82,7 +82,7 @@ body{
     background:rgb(53,53,53);
     border-radius: 17px;
 }
-@media(Min-width:375px) and (Max-width:576px) {
+@media(Max-width:576px) {
    
     .content{
         font-size: 16px;
@@ -103,7 +103,11 @@ body{
     }
     
    .singleColumn,.multiplecolumn{
-    margin-top: 13%;
+    margin-top: 23%;
+   }
+   .singleColumn{
+    height: 63vh;
+    border-radius:10px;
    }
    .firstColumn{
     margin-bottom: 23%;
@@ -113,7 +117,12 @@ body{
    }
    .thirdColumn{
     width: 60vw;
-    height: 18vh;
+    height: 15vh;
+   }
+   .card2,.card1,.card3{
+   
+    padding: 2px; 
+
    }
 }
 
